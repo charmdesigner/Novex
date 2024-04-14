@@ -733,8 +733,10 @@ main {
 
 .accordion .accordion-item span.icon {
 	min-width: 16px;
+	width:16px;
 	height: 17px;
 	margin-right: 40px;
+	display: inline-block;
 }
 
 .accordion .accordion-item span.icon img {
