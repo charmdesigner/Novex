@@ -243,6 +243,9 @@
 	.connect-follow {
 		display: block;
 	}
+	nav ul li.active a{
+        color: #A6C0FF;
+	}
 
 	/***responsive-menu-css-end***/
 	header .inner-container {
@@ -311,7 +314,7 @@
 	}
 
 	.banner-img {
-		height: 187px;
+		height: auto;
 	}
 
 	.plan-sec,

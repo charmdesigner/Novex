@@ -178,7 +178,7 @@ nav ul li a {
 }
 
 nav ul li a:hover:before,
-nav ul li a.active:before {
+nav ul li.active a:before {
 	transform: scale(1);
 }
 
@@ -371,14 +371,14 @@ main {
 .plan-sec p {
 	font-size: 24px;
 	line-height: 30px;
-	max-width: 93%;
+	max-width: 96%;
 	margin: 0px auto;
 	text-transform: capitalize;
 }
 
 .about-sec p,
 .faq-sec p {
-	max-width: 67%;
+	max-width: 85%;
 	margin: 0px auto;
 }
 
@@ -906,7 +906,7 @@ body .connect-follow ul {
 	text-decoration: none;
 }
 
-.footer-column ul li a:hover,
+.footer-column ul li a:hover,.footer-column ul li.active a,
 ul.social-icon a i:hover,
 .connect-follow ul li a:hover {
 	color: #A6C0FF;
