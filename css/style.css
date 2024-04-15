@@ -148,12 +148,22 @@ header {
 	position: relative;
 	z-index: 9;
 }
+header.sticky{
+	position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px #80808087;
+}
+header.sticky .inner-container {
+    padding: 10px 0px;
+}
 
 header .inner-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px 0px;
+	transition: background-color 0.5s, padding 1s;
 }
 
 /* Navigation styles */
@@ -473,31 +483,25 @@ main {
 	width: 100%;
 }
 
-.plan-sec .box:nth-child(2n),
 .plan-sec .box:hover {
 	background-color: #00005B;
 }
 
-.plan-sec .box:nth-child(2n) :is(h5, p, ul li, .price),
 .plan-sec .box:hover :is(h5, p, ul li, .price) {
 	color: #fff;
 }
 
-.plan-sec .box:nth-child(2n) img,
-.plan-sec .box:nth-child(2n) ul li:before,
 .plan-sec .box:hover img,
 .plan-sec .box:hover ul li:before {
 	filter: brightness(0) invert(1);
 }
 
-.plan-sec .box:nth-child(2n) button,
 .plan-sec .box:hover button {
 	border: 1px solid #fff;
 	background-color: #fff;
 	color: #00005B;
 }
 
-.plan-sec .box:nth-child(2n) button:hover,
 .plan-sec .box:hover button:hover {
 	border: 1px solid #fff;
 	background-color: transparent;
@@ -654,16 +658,23 @@ main {
 	background-color: #F9F9F9;
 	padding: 100px 0px;
 }
-
+.accordion-main{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
 .faq-sec .accordion {
 	margin-top: 70px;
 }
 
 .accordion {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	gap: 20px;
 	max-width: 100%;
+	width: calc(50% - 10px);
+	align-items: flex-start;
+    align-content: flex-start;
 }
 
 .accordion .accordion-item {
@@ -672,6 +683,8 @@ main {
 	border-radius: 20px;
 	position: relative;
 	overflow: hidden;
+	width: 100%;
+	height: min-content;
 }
 
 .accordion .accordion-item .accordion-item-description-wrapper hr {

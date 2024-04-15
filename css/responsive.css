@@ -1,3 +1,17 @@
+@media screen and (max-width:1300px){
+	.accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+		padding: 25px 25px;
+		font-weight: 600;
+    font-size: 20px;
+	}
+	.accordion .accordion-item span.icon {
+		margin-right: 25px;
+	}
+	.accordion .accordion-item .accordion-item-description-wrapper .accordion-item-description p {
+		padding: 20px 50px 20px 25px;
+		font-size: 16px!important;
+	}
+}
 @media screen and (max-width:1100px) {
 	.plan-sec .col:nth-child(2) {
 		gap: 20px;
@@ -14,7 +28,17 @@
 	}
 }
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+	header .logo a {
+		height: 45px;
+	}
+	.accordion {
+		width: 100%;
+	}
+	.faq-sec .accordion:last-child {
+		margin-top: 0px;
+	}
+}
 
 @media screen and (max-width:991px) {
 

@@ -35,3 +35,19 @@ jQuery(document).ready(function () {
     jQuery(".menu-main").toggleClass("close-sidebar");
   });
 });
+////////////////////////
+window.onscroll = function () {
+  var header = document.querySelector("header");
+  if (window.pageYOffset > 0) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+};
+//////////////////////////
+$(document).ready(function () {
+  $(".menu-main ul li").click(function () {
+    $("ul li").removeClass("active");
+    $(this).addClass("active");
+  });
+});
