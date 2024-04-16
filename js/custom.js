@@ -31,6 +31,9 @@ jQuery(document).ready(function () {
     jQuery(this).toggleClass("menu-open");
     jQuery(".menu-main").toggleClass("show-menu");
   });
+  jQuery(".nav-link").click(function () {
+    jQuery(".menu-main").toggleClass("close-sidebar");
+  });
   jQuery(".close-icon").click(function () {
     jQuery(".menu-main").toggleClass("close-sidebar");
   });

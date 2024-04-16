@@ -145,8 +145,13 @@ button:hover {
 
 /* Header styles */
 header {
+	position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+main{
 	position: relative;
-	z-index: 9;
+    top: 0px;
 }
 header.sticky{
 	position: fixed;
@@ -281,7 +286,7 @@ main {
 }
 
 .banner-sec {
-	padding: 70px 0px 100px 0px;
+	padding: 177px 0px 100px 0px;
 	position: relative;
 }
 

@@ -43,7 +43,7 @@
 @media screen and (max-width:991px) {
 
 	.banner-sec {
-		padding: 60px 0px 70px 0px;
+		padding: 145px 0px 70px 0px;
 	}
 
 	.plan-sec,
@@ -315,7 +315,7 @@
 	}
 
 	.banner-sec {
-		padding: 5px 0px 40px 0px;
+		padding: 115px 0px 65px 0px;
 	}
 
 	.banner-sec p {
@@ -339,13 +339,6 @@
 
 	.banner-img {
 		height: auto;
-	}
-
-	.plan-sec,
-	.about-sec,
-	.faq-sec,
-	.contact-sec {
-		padding: 40px 0px 40px 0px;
 	}
 
 	.plan-sec .col:nth-child(2) {
@@ -457,7 +450,7 @@
 	}
 
 	.counter-sec {
-		padding-bottom: 40px;
+		padding-bottom: 70px;
 	}
 
 	.faq-sec .accordion {
@@ -510,7 +503,7 @@
 	}
 
 	.footer-main {
-		padding: 40px 0px 24px 0px;
+		padding: 65px 0px 24px 0px;
 	}
 
 	.footer-main .row {
